@@ -23,7 +23,9 @@ public class letCarWorkTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
-
+public void test(){
+    System.out.println("hi");
+}
 
 
 
