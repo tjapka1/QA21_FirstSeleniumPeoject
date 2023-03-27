@@ -37,10 +37,10 @@ public class FirstFindElementTest {
         List <WebElement> elements = driver.findElements(By.tagName("a"));
         System.out.println(elements.size());
 
-
-
-
     }
+
+
+
     @AfterMethod
     public void tearDown(){
         driver.quit();
